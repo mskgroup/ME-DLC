@@ -1,0 +1,1031 @@
+; The UE3 filesystem require this file for certain localization settings.
+
+; Strings below refer to the TdGameUI localization file. Localization for these
+; strings should not be done in this file!
+[TdProfileSettings]
+ProfileMappings[0]=(ValueMappings=((Name="<Strings:TdGameUI.TdSettingsMappings.Off>"),(Name="<Strings:TdGameUI.TdSettingsMappings.On>")))
+ProfileMappings[1]=(ValueMappings=((Name="<Strings:TdGameUI.TdSettingsMappings.Normal>"),(Name="<Strings:TdGameUI.TdSettingsMappings.Inverted>")))
+ProfileMappings[2]=(ValueMappings=((Name="<Strings:TdGameUI.TdSettingsMappings.Easy>"),(Name="<Strings:TdGameUI.TdSettingsMappings.Normal>"),(Name="<Strings:TdGameUI.TdSettingsMappings.Hard>")))
+ProfileMappings[3]=(ValueMappings=((Name="<Strings:TdGameUI.TdSettingsMappings.Off>"),(Name="<Strings:TdGameUI.TdSettingsMappings.On>")))
+ProfileMappings[4]=(ValueMappings=((Name="<Strings:TdGameUI.TdSettingsMappings.Metric>"),(Name="<Strings:TdGameUI.TdSettingsMappings.Imperial>")))
+ProfileMappings[5]=(ValueMappings=((Name="<Strings:TdGameUI.TdSettingsMappings.On>"),(Name="<Strings:TdGameUI.TdSettingsMappings.Environment>"),(Name="<Strings:TdGameUI.TdSettingsMappings.Off>")))
+ProfileMappings[6]=(ValueMappings=((Name="<Strings:TdGameUI.TdSettingsMappings.Off>"),(Name="<Strings:TdGameUI.TdSettingsMappings.WeaponOnly>"),(Name="<Strings:TdGameUI.TdSettingsMappings.On>")))
+ProfileMappings[15]=(ValueMappings=((Name="<Strings:TdGameUI.TdSettingsMappings.TypeA>"),(Name="<Strings:TdGameUI.TdSettingsMappings.TypeB>"),(Name="<Strings:TdGameUI.TdSettingsMappings.TypeC>"),(Name="<Strings:TdGameUI.TdSettingsMappings.TypeD>")))
+ProfileMappings[16]=(ValueMappings=((Name="<Strings:TdGameUI.TdSettingsMappings.On>"),(Name="<Strings:TdGameUI.TdSettingsMappings.Off>")))
+ProfileMappings[17]=(ValueMappings=((Name="<Strings:TdGameUI.TdSettingsMappings.Off>"),(Name="<Strings:TdGameUI.TdSettingsMappings.On>")))
+
+[TdLeaderboardSettings]
+LocalizedSettingsMappings[0]=(ValueMappings=((Name="<Strings:TdGameUI.TdSettingsMappings.Weekly>"),(Name="<Strings:TdGameUI.TdSettingsMappings.Monthly>"),(Name="<Strings:TdGameUI.TdSettingsMappings.Infinite>")))
+LocalizedSettingsMappings[1]=(ValueMappings=((Name="<Strings:TdGameUI.TdSettingsMappings.CenterPlayer>"),(Name="<Strings:TdGameUI.TdSettingsMappings.Friends>"),(Name="<Strings:TdGameUI.TdSettingsMappings.TopRanks>")))
+LocalizedSettingsMappings[2]=(ValueMappings=((Name="<Strings:TdGameUI.TdSettingsMappings.TimeTrial>"),(Name="<Strings:TdGameUI.TdSettingsMappings.LevelRace>")))
+
+[TdLoginSettings]
+LocalizedSettingsMappings[0]=(ValueMappings=((Name="<Strings:TdGameUI.TdSettingsMappings.Yes>"),(Name="<Strings:TdGameUI.TdSettingsMappings.No>")))
+LocalizedSettingsMappings[1]=(ValueMappings=((Name="<Strings:TdGameUI.TdSettingsMappings.Yes>"),(Name="<Strings:TdGameUI.TdSettingsMappings.No>")))
+
+; Strings below need to be localized
+[UIDataStore_TdStringList]
+StringData[0]=(ColumnHeaderText="Fullscreen",Strings=("FULLSCREEN","WINDOWED"))
+StringData[1]=(ColumnHeaderText="Resolution",Strings=("800x600","960x720","1024x768","1280x720","1600x1200"))
+StringData[2]=(ColumnHeaderText="VSync",Strings=("OFF","ON"))
+StringData[3]=(ColumnHeaderText="TextureDetail",Strings=("LOWEST","LOW","MEDIUM","HIGH","HIGHEST"))
+StringData[4]=(ColumnHeaderText="GraphicsQuality",Strings=("LOWEST","LOW","MEDIUM","HIGH","HIGHEST"))
+StringData[5]=(ColumnHeaderText="AudioDevices",Strings=("HARDWARE","GENERIC SOFTWARE"))
+StringData[6]=(ColumnHeaderText="TTCompareData",Strings=("TARGET TIME","WORLD'S BEST","PLAYER BEST","FRIEND'S BEST"))
+StringData[7]=(ColumnHeaderText="Antialiasing",Strings=("OFF"))
+StringData[8]=(ColumnHeaderText="PhysXSupport",Strings=("OFF","ON"))
+
+[UIDataStore_TdOnlineStats]
+PlayerNickData.PlayerNickColumnName="PLAYER"
+RankNameMetaData.RankColumnName="RANK"
+PlayerNickColumnNameXbox="GAMERTAG"
+PlayerNickColumnNamePS3="ONLINE ID"
+
+[TdLeaderboardReadSPTT]
+ColumnMappings[0]=(ColumnName="RATING")
+ColumnMappings[1]=(ColumnName="TIME")
+; below ColumnName should be a whitespace (column caption should be blank)
+ColumnMappings[2]=(ColumnName=" ")
+ColumnMappings[3]=(ColumnName="AVG SPEED")
+ColumnMappings[4]=(ColumnName="DISTANCE")
+
+[TdUIScene_LoadIndicator]
+WriteMessage=SAVING...
+LongWriteMessage=SAVING, PLEASE DON'T TURN THE SYSTEM OFF
+ReadMessage=LOADING...
+LongReadMessage=LOADING, PLEASE DON'T TURN THE SYSTEM OFF
+DownloadMessage=DOWNLOADING
+UploadMessage=UPLOADING
+CreatingSaveDataMessage=SAVING NEW SAVE DATA, PLEASE DON'T TURN THE SYSTEM OFF
+LoadingSaveDataMessage=LOADING SAVE DATA, PLEASE DON'T TURN THE SYSTEM OFF
+CheckingSaveDataMessage=CHECKING SAVE DATA, PLEASE DON'T TURN THE SYSTEM OFF
+LoadingLevelMessage=LOADING LEVEL
+
+[TdTimeTrialHUD]
+TargetTimeString=Target Time:
+
+[UIDataProvider_TdOnlineFriends]
+NickNameCol=ONLINE ID
+PresenceInfoCol=ONLINE STATUS
+bIsOnlineCol=""
+
+[UIDataProvider_TdOnlineFriendMessages]
+SendingPlayerNameCol=FROM
+bIsFriendInviteCol=" "
+
+; ---------- KEY BINDINGS ----------
+[MoveForward UIDataProvider_TdKeyBinding]
+FriendlyName="MOVE FORWARD"
+
+[MoveBackward UIDataProvider_TdKeyBinding]
+FriendlyName="MOVE BACKWARD"
+
+[StrafeLeft UIDataProvider_TdKeyBinding]
+FriendlyName="STRAFE LEFT"
+
+[StrafeRight UIDataProvider_TdKeyBinding]
+FriendlyName="STRAFE RIGHT"
+
+[TurnLeft UIDataProvider_TdKeyBinding]
+FriendlyName="TURN LEFT"
+
+[TurnRight UIDataProvider_TdKeyBinding]
+FriendlyName="TURN RIGHT"
+
+[LookUp UIDataProvider_TdKeyBinding]
+FriendlyName="LOOK UP"
+
+[LookDown UIDataProvider_TdKeyBinding]
+FriendlyName="LOOK DOWN"
+
+[Pause UIDataProvider_TdKeyBinding]
+FriendlyName="PAUSE GAME"
+
+[Fire UIDataProvider_TdKeyBinding]
+FriendlyName="ATTACK"
+
+[Melee UIDataProvider_TdKeyBinding]
+FriendlyName="MELEE ACTION"
+
+[Jump UIDataProvider_TdKeyBinding]
+FriendlyName="UP ACTION"
+
+[Crouch UIDataProvider_TdKeyBinding]
+FriendlyName="DOWN ACTION"
+
+[Use UIDataProvider_TdKeyBinding]
+FriendlyName="INTERACT"
+
+[InGameMenu UIDataProvider_TdKeyBinding]
+FriendlyName="OBJECTIVES/ TIME TRIAL RESET"
+
+[LookBehind UIDataProvider_TdKeyBinding]
+FriendlyName="TURN 90/180"
+
+[ReactionTime UIDataProvider_TdKeyBinding]
+FriendlyName="REACTION TIME"
+
+[SwitchWeapon UIDataProvider_TdKeyBinding]
+FriendlyName="PICK UP/DROP"
+
+[ZoomWeapon UIDataProvider_TdKeyBinding]
+FriendlyName="WEAPON ZOOM"
+
+[LookAt UIDataProvider_TdKeyBinding]
+FriendlyName="HINT"
+
+[WalkMod UIDataProvider_TdKeyBinding]
+FriendlyName="WALK"
+
+[Gamepad_Strafe UIDataProvider_TdKeyBinding]
+FriendlyName="STRAFE"
+
+[Gamepad_Move UIDataProvider_TdKeyBinding]
+FriendlyName="MOVE"
+
+[Gamepad_Turn UIDataProvider_TdKeyBinding]
+FriendlyName="TURN"
+
+[Gamepad_Look UIDataProvider_TdKeyBinding]
+FriendlyName="LOOK"
+
+; ---------- MAPS ----------
+[TrainingArea UIDataProvider_TdMaps]
+MapName=TRAINING AREA
+Description=Practice room for movement and combat.
+
+[SP01a UIDataProvider_TdMaps]
+MapName=PROLOGUE - THE EDGE
+Description=
+Checkpoints[0]=(CheckpointFriendlyName="CHECKPOINT A",CheckpointDescription="Start of level")
+Checkpoints[1]=(CheckpointFriendlyName="CHECKPOINT B",CheckpointDescription="After Intro")
+Checkpoints[2]=(CheckpointFriendlyName="CHECKPOINT C",CheckpointDescription="After the sluice")
+Checkpoints[3]=(CheckpointFriendlyName="CHECKPOINT D",CheckpointDescription="SWAT Appear on Roof")
+
+[SP01b UIDataProvider_TdMaps]
+MapName=CHAPTER 1 - FLIGHT
+Description=
+Checkpoints[0]=(CheckpointFriendlyName="CHECKPOINT A",CheckpointDescription="Approaching skyscraper")
+Checkpoints[1]=(CheckpointFriendlyName="CHECKPOINT B",CheckpointDescription="Pope's Office")
+Checkpoints[2]=(CheckpointFriendlyName="CHECKPOINT C",CheckpointDescription="Helicopter Chase")
+Checkpoints[3]=(CheckpointFriendlyName="CHECKPOINT D",CheckpointDescription="Crossing the Avenue")
+Checkpoints[4]=(CheckpointFriendlyName="CHECKPOINT E",CheckpointDescription="Centurion Plaza")
+
+[SP02 UIDataProvider_TdMaps]
+MapName=CHAPTER 2 - JACKNIFE
+Description=
+Checkpoints[0]=(CheckpointFriendlyName="CHECKPOINT A",CheckpointDescription="Start of level")
+Checkpoints[1]=(CheckpointFriendlyName="CHECKPOINT B",CheckpointDescription="When getting down into the stormdrains")
+Checkpoints[2]=(CheckpointFriendlyName="CHECKPOINT C",CheckpointDescription="Pillar room entry")
+Checkpoints[3]=(CheckpointFriendlyName="CHECKPOINT D",CheckpointDescription="Getting out of the stormdrains")
+Checkpoints[4]=(CheckpointFriendlyName="CHECKPOINT E",CheckpointDescription="At the top of the exit shute")
+Checkpoints[5]=(CheckpointFriendlyName="CHECKPOINT F",CheckpointDescription="At the start of the JK chase")
+Checkpoints[6]=(CheckpointFriendlyName="CHECKPOINT G",CheckpointDescription="At the start of the JK  fight")
+
+[SP03 UIDataProvider_TdMaps]
+MapName=CHAPTER 3 - HEAT
+Description=
+Checkpoints[0]=(CheckpointFriendlyName="CHECKPOINT A",CheckpointDescription="Start of level")
+Checkpoints[1]=(CheckpointFriendlyName="CHECKPOINT B",CheckpointDescription="RB's office")
+Checkpoints[2]=(CheckpointFriendlyName="CHECKPOINT C",CheckpointDescription="Running stretch")
+Checkpoints[3]=(CheckpointFriendlyName="CHECKPOINT D",CheckpointDescription="Start of final crane area ")
+
+[SP04 UIDataProvider_TdMaps]
+MapName=CHAPTER 4 - ROPEBURN
+Description=
+Checkpoints[0]=(CheckpointFriendlyName="CHECKPOINT A",CheckpointDescription="Start of level")
+Checkpoints[1]=(CheckpointFriendlyName="CHECKPOINT B",CheckpointDescription="RB bossfight")
+Checkpoints[2]=(CheckpointFriendlyName="CHECKPOINT C",CheckpointDescription="Swat fight in elevator room")
+Checkpoints[3]=(CheckpointFriendlyName="CHECKPOINT D",CheckpointDescription="Scaffolding puzzle at start of station")
+Checkpoints[4]=(CheckpointFriendlyName="CHECKPOINT E",CheckpointDescription="Subway tunnels")
+Checkpoints[5]=(CheckpointFriendlyName="CHECKPOINT F",CheckpointDescription="Beginning of train ride")
+
+[SP05 UIDataProvider_TdMaps]
+MapName=CHAPTER 5 - NEW EDEN
+Description=
+Checkpoints[0]=(CheckpointFriendlyName="CHECKPOINT A",CheckpointDescription="Rooftop start point")
+Checkpoints[1]=(CheckpointFriendlyName="CHECKPOINT B",CheckpointDescription="Start of combat rooftops")
+Checkpoints[2]=(CheckpointFriendlyName="CHECKPOINT C",CheckpointDescription="Second rooftop stretch")
+Checkpoints[3]=(CheckpointFriendlyName="CHECKPOINT D",CheckpointDescription="Mall")
+
+[SP06 UIDataProvider_TdMaps]
+MapName=CHAPTER 6 - PIRANDELLO KRUGER
+Description=
+Checkpoints[0]=(CheckpointFriendlyName="CHECKPOINT A",CheckpointDescription="Renovation start point")
+Checkpoints[1]=(CheckpointFriendlyName="CHECKPOINT B",CheckpointDescription="Green interior before combat room")
+Checkpoints[2]=(CheckpointFriendlyName="CHECKPOINT C",CheckpointDescription="Conveyor puzzle")
+Checkpoints[3]=(CheckpointFriendlyName="CHECKPOINT D",CheckpointDescription="Training area")
+Checkpoints[4]=(CheckpointFriendlyName="CHECKPOINT E",CheckpointDescription="Pursuit chase")
+
+[SP07 UIDataProvider_TdMaps]
+MapName=CHAPTER 7 - THE BOAT
+Description=
+Checkpoints[0]=(CheckpointFriendlyName="CHECKPOINT A",CheckpointDescription="Start of level")
+Checkpoints[1]=(CheckpointFriendlyName="CHECKPOINT B",CheckpointDescription="Car deck")
+Checkpoints[2]=(CheckpointFriendlyName="CHECKPOINT C",CheckpointDescription="Vent rooms")
+Checkpoints[3]=(CheckpointFriendlyName="CHECKPOINT D",CheckpointDescription="Top of boat, sniping with Celeste")
+Checkpoints[4]=(CheckpointFriendlyName="CHECKPOINT E",CheckpointDescription="Chasing Celeste through the boat")
+Checkpoints[5]=(CheckpointFriendlyName="CHECKPOINT F",CheckpointDescription="Showdown with Celeste")
+
+[SP08 UIDataProvider_TdMaps]
+MapName=CHAPTER 8 - KATE
+Description=
+Checkpoints[0]=(CheckpointFriendlyName="CHECKPOINT A",CheckpointDescription="Kates_convoy")
+Checkpoints[1]=(CheckpointFriendlyName="CHECKPOINT B",CheckpointDescription="At the start point for chase 2 (Rooftop)")
+Checkpoints[2]=(CheckpointFriendlyName="CHECKPOINT C",CheckpointDescription="Atrium puzzle")
+Checkpoints[3]=(CheckpointFriendlyName="CHECKPOINT D",CheckpointDescription="Sniper room")
+Checkpoints[4]=(CheckpointFriendlyName="CHECKPOINT E",CheckpointDescription="Atrium combat area")
+
+[SP09 UIDataProvider_TdMaps]
+MapName=CHAPTER 9 - THE SHARD
+GameMode=TdGame.TdSpStoryGame
+Checkpoints[0]=(CheckpointFriendlyName="CHECKPOINT A",CheckpointDescription="Start point looking at scraper")
+Checkpoints[1]=(CheckpointFriendlyName="CHECKPOINT B",CheckpointDescription="Carpark")
+Checkpoints[2]=(CheckpointFriendlyName="CHECKPOINT C",CheckpointDescription="Lobby")
+Checkpoints[3]=(CheckpointFriendlyName="CHECKPOINT D",CheckpointDescription="Elevator shaft")
+Checkpoints[4]=(CheckpointFriendlyName="CHECKPOINT E",CheckpointDescription="Rooftops")
+Checkpoints[5]=(CheckpointFriendlyName="CHECKPOINT F",CheckpointDescription="Server room")
+Checkpoints[6]=(CheckpointFriendlyName="CHECKPOINT G",CheckpointDescription="The 57th and very last rooftop of the game")
+
+; ---------- TUTORIAL CHALLENGES ----------
+[CHALLENGE1 UIDataProvider_TdTutorialChallenge]
+FriendlyName=MOVEMENT BASICS
+Description=Learn to run and sprint up and down slopes. Practise jumping and vertical wallruns. Heave up and grab.
+
+[CHALLENGE2 UIDataProvider_TdTutorialChallenge]
+FriendlyName=TIMING PRACTISE
+Description=Learn how to slide, vault and speedvault, to use the springboard and to do horizontal wallruns.
+
+[CHALLENGE3 UIDataProvider_TdTutorialChallenge]
+FriendlyName=CLIMBING AND BALANCE
+Description=Learn to use the zip line, to balance walk, to swing and to barge. Climb ladders and pipes, and do a grab transfer.
+
+[CHALLENGE4 UIDataProvider_TdTutorialChallenge]
+FriendlyName=ADVANCED COMBINATIONS
+Description=Practise L-jumps from  a wall, master swing combinations and horizontal to vertical wallruns. Try the vertical wallrun and a 180 turn. Jump and coil and do the skill roll.
+
+; ---------- TIME TRIAL STRETCHES ----------
+
+[TT_STRETCH0 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=PLAYGROUND ONE
+Description=
+UnlockDesc=Complete Training Area in Story Mode to unlock this course
+
+[TT_STRETCH1 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=PLAYGROUND TWO
+Description=
+UnlockDesc=Beat a qualifying time on Playground 1 to unlock this course
+
+[TT_STRETCH2 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=PLAYGROUND THREE
+Description=
+UnlockDesc=Beat a qualifying time on Playground 2 to unlock this course
+
+[TT_STRETCH3 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=EDGE
+Description=
+UnlockDesc=Complete Prologue in Story Mode to unlock this course
+
+[TT_STRETCH4 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=ARLAND
+Description=
+UnlockDesc=Complete Chapter 1 in Story Mode to unlock this course
+
+[TT_STRETCH5 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=FLIGHT
+Description=
+UnlockDesc=Beat a qualifying time on Arland to unlock this course
+
+[TT_STRETCH6 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=CHASE
+Description=
+UnlockDesc=Complete Chapter 2 in Story Mode to unlock this course
+
+[TT_STRETCH7 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=STORMDRAINS ONE
+Description=
+UnlockDesc=Beat a qualifying time on Chase to unlock this course
+
+[TT_STRETCH8 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=STORMDRAINS TWO
+Description=
+UnlockDesc=Beat a qualifying time on Stormdrain 1 to unlock this course
+
+[TT_STRETCH9 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=STORMDRAINS THREE
+Description=
+UnlockDesc=Beat a qualifying time on Stormdrain 2 to unlock this course
+
+[TT_STRETCH10 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=HEAT
+Description=
+UnlockDesc=Complete Chapter 3 in Story Mode to unlock this course
+
+[TT_STRETCH11 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=BURFIELD
+Description=
+UnlockDesc=Beat a qualifying time on Heat to unlock this course
+
+[TT_STRETCH12 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=CRANES ONE
+Description=
+UnlockDesc=Beat a qualifying time on Burfield to unlock this course
+
+[TT_STRETCH13 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=CRANES TWO
+Description=
+UnlockDesc=Complete Chapter 4 in Story Mode to unlock this course
+
+[TT_STRETCH14 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=NEW EDEN
+Description=
+UnlockDesc=Complete Chapter 5 in Story Mode to unlock this course
+
+[TT_STRETCH15 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=FACTORY
+Description=
+UnlockDesc=Complete Chapter 6 in Story Mode to unlock this course
+
+[TT_STRETCH16 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=OFFICE
+Description=
+UnlockDesc=Complete Chapter 7 in Story Mode to unlock this course
+
+[TT_STRETCH17 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=CONVOY ONE
+Description=
+UnlockDesc=Complete Chapter 8 in Story Mode to unlock this course
+
+[TT_STRETCH18 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=CONVOY TWO
+Description=
+UnlockDesc=Beat a qualifying time on Convoy 1 to unlock this course
+
+[TT_STRETCH19 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=ATRIUM ONE
+Description=
+UnlockDesc=Beat a qualifying time on Convoy 2 to unlock this course
+
+[TT_STRETCH20 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=ATRIUM TWO
+Description=
+UnlockDesc=Beat a qualifying time on Atrium 1 to unlock this course
+
+[TT_STRETCH21 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=SHARD ONE
+Description=
+UnlockDesc=Complete Chapter 9 in Story Mode to unlock this course
+
+[TT_STRETCH22 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=SHARD TWO
+Description=
+UnlockDesc=Beat a qualifying time on Shard 1 to unlock this course
+
+[TT_STRETCH23 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=CHROMA
+Description=
+UnlockDesc=
+
+[TT_STRETCH24 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=FLOW
+Description=
+UnlockDesc=
+
+[TT_STRETCH25 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=RAZZMATAZZ
+Description=
+UnlockDesc=
+
+[TT_STRETCH26 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=VELOCITY
+Description=
+UnlockDesc=
+
+[TT_STRETCH27 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=KINETIC
+Description=
+UnlockDesc=
+
+[TT_STRETCH28 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=ACTINO
+Description=
+UnlockDesc=
+
+[TT_STRETCH29 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=ACTINO RISE
+Description=
+UnlockDesc=
+
+[TT_STRETCH30 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=REFLEX
+Description=
+UnlockDesc=
+
+[TT_STRETCH31 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=REFLEX REDUX
+Description=
+UnlockDesc=
+
+[TT_STRETCH32 UIDataProvider_TdTimeTrialStretch]
+FriendlyName=SYNESTHESIA
+Description=
+UnlockDesc=
+
+; ---------- LEVEL RACE STRETCHES ----------
+
+[LR_STRETCH0 UIDataProvider_TdLevelRaceStretch]
+FriendlyName=PROLOGUE - THE EDGE
+Description=
+
+[LR_STRETCH1 UIDataProvider_TdLevelRaceStretch]
+FriendlyName=CHAPTER 1 - FLIGHT
+Description=
+
+[LR_STRETCH2 UIDataProvider_TdLevelRaceStretch]
+FriendlyName=CHAPTER 2 - JACKNIFE
+Description=
+
+[LR_STRETCH3 UIDataProvider_TdLevelRaceStretch]
+FriendlyName=CHAPTER 3 - HEAT
+Description=
+
+[LR_STRETCH4 UIDataProvider_TdLevelRaceStretch]
+FriendlyName=CHAPTER 4 - ROPEBURN
+Description=
+
+[LR_STRETCH5 UIDataProvider_TdLevelRaceStretch]
+FriendlyName=CHAPTER 5 - NEW EDEN
+Description=
+
+[LR_STRETCH6 UIDataProvider_TdLevelRaceStretch]
+FriendlyName=CHAPTER 6 - PIRANDELLO KRUGER
+Description=
+
+[LR_STRETCH7 UIDataProvider_TdLevelRaceStretch]
+FriendlyName=CHAPTER 7 - THE BOAT
+Description=
+
+[LR_STRETCH8 UIDataProvider_TdLevelRaceStretch]
+FriendlyName=CHAPTER 8 - KATE
+Description=
+
+[LR_STRETCH9 UIDataProvider_TdLevelRaceStretch]
+FriendlyName=CHAPTER 9 - THE SHARD
+Description=
+
+
+
+; ---------- GAME OBJECTIVES ----------
+;
+; Main objectives are set from sub objectives, so the SubObjectiveNames MUSt be unique across all objectives
+; These objects MUST be in order!
+
+; 1a
+[OBJ_0A UIDataProvider_TdGameObjectiveProvider]
+FriendlyName="Deliver the bag"
+Description="In order to complete this job you need to get the bag to Celeste, another runner. She's waiting near the communications tower. Give her the bag and Cel will take it from there."
+SubObjectives[0]=(FriendlyName="Get to the communications tower to meet Celeste")
+SubObjectives[1]=(FriendlyName="Hand off the bag to Celeste")
+SubObjectives[2]=(FriendlyName="Escape the rooftop")
+
+; 1b
+[OBJ_1A UIDataProvider_TdGameObjectiveProvider]
+FriendlyName="Get to Kate"
+Description="Your sister, Kate, is in trouble. She's at the offices of Robert Pope & Associates at 56, West Arland. Get there and find out what's happened. "
+SubObjectives[0]=(FriendlyName="Reach the Robert Pope & Associates skyscraper on West Arland ")
+SubObjectives[1]=(FriendlyName="Find Kate inside the offices")
+SubObjectives[2]=(FriendlyName="Escape the office")
+
+[OBJ_1B UIDataProvider_TdGameObjectiveProvider]
+FriendlyName="Get away"
+Description="The Blues are closing in on West Arland. Use the rooftops to get to the City Eye Channel News building and then head for Centurian Plaza"
+SubObjectives[0]=(FriendlyName="Reach the CEC news building across the rooftops")
+SubObjectives[1]=(FriendlyName="Cross the avenue and get to Centurian Plaza")
+SubObjectives[2]=(FriendlyName="Escape from Centurian Plaza")
+
+; 2
+[OBJ_2A UIDataProvider_TdGameObjectiveProvider]
+FriendlyName="The old Runner training grounds"
+Description="If there's anyone who might know about Pope's murder, Kate's set-up and 'Icarus' then it's a well-connected ex-Runner, named Jacknife. He's been spotted near the old Runner training grounds."
+SubObjectives[0]=(FriendlyName="Use the canals and head for the old Runner training grounds")
+SubObjectives[1]=(FriendlyName="Find an escape route down through the stormdrains")
+SubObjectives[2]=(FriendlyName="Reach the exit on the far side of the stormdrains")
+
+[OBJ_2B UIDataProvider_TdGameObjectiveProvider]
+FriendlyName="Finding Jacknife"
+Description="Staying in the stormdrains is too risky. You need to find a way out and get to Jacknife before he moves on."
+SubObjectives[0]=(FriendlyName="Find a way out of the stormdrains")
+SubObjectives[1]=(FriendlyName="Reach the training rooftops and find Jacknife")
+SubObjectives[2]=(FriendlyName="Catch Jacknife and question him")
+
+; 3
+[OBJ_3A UIDataProvider_TdGameObjectiveProvider]
+FriendlyName="Ropeburn's office"
+Description="Jacknife has given you Travis 'Ropeburn' Burfield as a possible lead. This ex-wrestler has an office at Z. Burfield International Shipping."
+SubObjectives[0]=(FriendlyName="Find a way into the Z. Burfield Shipping building")
+SubObjectives[1]=(FriendlyName="Investigate Ropeburn's office")
+SubObjectives[2]=(FriendlyName="Get out of the offices")
+
+[OBJ_3B UIDataProvider_TdGameObjectiveProvider]
+FriendlyName="Escape the SWAT"
+Description="You triggered a silent alarm in Ropeburn's office. SWAT units are on your tail and you need to find a route to Drake's hideout."
+SubObjectives[0]=(FriendlyName="Outrun the chopper and head for the crane in the distance")
+SubObjectives[1]=(FriendlyName="Defeat the SWAT units")
+SubObjectives[2]=(FriendlyName="Reach the cranes and find a route to the hideout")
+
+;4
+[OBJ4A UIDataProvider_TdGameObjectiveProvider]
+FriendlyName="The meeting"
+Description="Ropeburn's phone conversation revealed that he's meeting with a mystery associate in a partially-built building, on Renold's Street."
+SubObjectives[0]=(FriendlyName="Discover Ropeburn's contact")
+SubObjectives[1]=(FriendlyName="Defeat Ropeburn")
+SubObjectives[2]=(FriendlyName="Defeat the incoming Blues and escape")
+
+[OBJ4B UIDataProvider_TdGameObjectiveProvider]
+FriendlyName="Getaway!"
+Description="Ropeburn was shot before he could tell you about the 'professional' he hired for the Pope killing. With the Blues approaching the safest way out is through the subway network."
+SubObjectives[0]=(FriendlyName="Head down in to the subway station to lose the blues")
+SubObjectives[1]=(FriendlyName="Fight your way through the platform and escape in to the accessways")
+SubObjectives[2]=(FriendlyName="Use the subway trains to make a final getaway")
+
+
+;5
+[OBJ5A UIDataProvider_TdGameObjectiveProvider]
+FriendlyName="Reach New Eden mall"
+Description="Before his death Ropeburn told you that he was due to meet with Pope's killer at the atrium of the New Eden Mall."
+SubObjectives[0]=(FriendlyName="Cross the overpass to avoid the street-level blockades")
+SubObjectives[1]=(FriendlyName="Get over the rooftops to the mall. Get through any blues you encounter")
+SubObjectives[2]=(FriendlyName="Find the Mall atrium where Ropeburn was due to meet Pope's killer")
+
+[OBJ5B UIDataProvider_TdGameObjectiveProvider]
+FriendlyName="Escape The Mall"
+Description="The rendezvous at the Mall turned out to be an ambush. Before you can find out who's behind it, you're going to have to make a fast getaway."
+SubObjectives[0]=(FriendlyName="Escape the ambush and head for the upper levels of the Mall")
+SubObjectives[1]=(FriendlyName="Avoid the pursuing cops and find a way into the maintenance areas on the upper level of the mall")
+SubObjectives[2]=(FriendlyName="Get back in to the attrium and find a way across the top to finally escape the Mall")
+
+;6
+[OBJ_6A UIDataProvider_TdGameObjectiveProvider]
+FriendlyName="Infiltrate Pirandello Kruger security"
+Description="A company called Pirandello Kruger suddenly seem to be taking an active role in city security. Merc has found a location for a new PK facility, down near the docks."
+SubObjectives[0]=(FriendlyName="Find your way in to the Pirandello Kruger factory")
+SubObjectives[1]=(FriendlyName="Get through the Pirandello Kruger guards")
+SubObjectives[2]=(FriendlyName="Locate the heart of the Pirandello Kruger operation")
+
+[OBJ_6B UIDataProvider_TdGameObjectiveProvider]
+FriendlyName="Escape the training facility"
+Description="Pirandello Kruger Security is being used to carry-out Project Icarus - a plot to destroy the Runners."
+SubObjectives[0]=(FriendlyName="Escape the Project Icarus training facility")
+SubObjectives[1]=(FriendlyName="Utilise the rooftops to escape from the PK units")
+SubObjectives[2]=(FriendlyName="Use the trains to lose the PK units")
+
+;7
+[OBJ_7A UIDataProvider_TdGameObjectiveProvider]
+FriendlyName="Search the boat"
+Description="While investigating Pirandello Kruger Security you spotted the white-clad figure from the mall on a boat at the docks."
+SubObjectives[0]=(FriendlyName="Find a way inside the boat")
+SubObjectives[1]=(FriendlyName="Get through the boat guards on the car decks")
+SubObjectives[2]=(FriendlyName="Reach the top deck of the boat via the ventilation rooms")
+
+[OBJ_7B UIDataProvider_TdGameObjectiveProvider]
+FriendlyName="Catch the assassin"
+Description="Your new friend seems a likely candidate for Pope's assassin. Now it's time to find out who they really are."
+SubObjectives[0]=(FriendlyName="Get across the boat deck to reach the assassin")
+SubObjectives[1]=(FriendlyName="Chase the assassin")
+SubObjectives[2]=(FriendlyName="Defeat the assassin")
+
+;8
+[OBJ_8A UIDataProvider_TdGameObjectiveProvider]
+FriendlyName="Rifle Drop"
+Description="Kate has been convicted of Pope's murder and a convoy is taking her off to prison. Drake's organised a rifle drop near the new CCC building."
+SubObjectives[0]=(FriendlyName="Make your way towards the new CCC building")
+SubObjectives[1]=(FriendlyName="Lose the PK units")
+SubObjectives[2]=(FriendlyName="Get to the new drop-off point inside the CCC building")
+
+[OBJ_8B UIDataProvider_TdGameObjectiveProvider]
+FriendlyName="Stop the convoy"
+Description="The rifle should allow you to disrupt the convoy's progress and perhaps create enough confusion for you to get to Kate."
+SubObjectives[0]=(FriendlyName="Climb the atrium to reach the rifle drop")
+SubObjectives[1]=(FriendlyName="Disrupt the convoy transporting Kate to prison")
+SubObjectives[2]=(FriendlyName="Get down to crash-site and find Kate")
+
+;9
+[OBJ_9A UIDataProvider_TdGameObjectiveProvider]
+FriendlyName="Gain access to the Shard"
+Description="Kate has been snatched back and taken off to a building known as the Shard. With Merc gone, you're on your own."
+SubObjectives[0]=(FriendlyName="Find a way into the Shard through the underground maintenance areas")
+SubObjectives[1]=(FriendlyName="Get through the lobby and use the elevator to reach the upper levels")
+SubObjectives[2]=(FriendlyName="Make your way to the outside of the Shard via the ventilation system")
+
+[OBJ_9B UIDataProvider_TdGameObjectiveProvider]
+FriendlyName="Save Kate"
+Description="Kate has been snatched back and taken off to a building known as the Shard. With Merc gone, you're on your own."
+SubObjectives[0]=(FriendlyName="Get back inside the Shard across the rooftops")
+SubObjectives[1]=(FriendlyName="Reach the server room and destroy the servers to open a path to the rooftop")
+SubObjectives[2]=(FriendlyName="Save Kate")
+
+; ---------- CHALLENGE OBJECTIVES ----------
+;
+; Main objectives are set from sub objectives, so the SubObjectiveNames MUSt be unique across all objectives
+; These objects MUST be in order!
+
+[TUT_OBJ_1A UIDataProvider_TdChallengeObjectiveProvider]
+FriendlyName="The Basics"
+Description="Learn the basics of movement and momentum"
+SubObjectives[0]=(FriendlyName="Basic controls")
+SubObjectives[1]=(FriendlyName="Jump")
+SubObjectives[2]=(FriendlyName="Slide")
+SubObjectives[3]=(FriendlyName="Get to Celeste")
+
+[TUT_OBJ_2A UIDataProvider_TdChallengeObjectiveProvider]
+FriendlyName="Follow the leader"
+Description="Follow Celeste across two rooftops using common moves"
+SubObjectives[0]=(FriendlyName="Vault")
+SubObjectives[1]=(FriendlyName="Wallrun")
+SubObjectives[2]=(FriendlyName="Speed vault")
+SubObjectives[3]=(FriendlyName="Barge door")
+
+[TUT_OBJ_3A UIDataProvider_TdChallengeObjectiveProvider]
+FriendlyName="Balance Walk"
+Description="Practice keeping your balance at high altitude"
+SubObjectives[0]=(FriendlyName="Balance walk")
+
+[TUT_OBJ_4A UIDataProvider_TdChallengeObjectiveProvider]
+FriendlyName="Climbing"
+Description="Learn swinging and climbing"
+SubObjectives[0]=(FriendlyName="Wallclimb")
+SubObjectives[1]=(FriendlyName="Swing")
+SubObjectives[2]=(FriendlyName="Climb")
+SubObjectives[3]=(FriendlyName="Shimmy")
+
+[TUT_OBJ_5A UIDataProvider_TdChallengeObjectiveProvider]
+FriendlyName="The L-jump"
+Description="An advanced combination that you best remember"
+SubObjectives[0]=(FriendlyName="L-Jump and wallclimb")
+SubObjectives[1]=(FriendlyName="Ledge walk")
+
+[TUT_OBJ_6A UIDataProvider_TdChallengeObjectiveProvider]
+FriendlyName="Zip line"
+Description="How to quickly get to distant rooftops"
+SubObjectives[0]=(FriendlyName="Zip line")
+SubObjectives[1]=(FriendlyName="Soft landing")
+
+[TUT_OBJ_7A UIDataProvider_TdChallengeObjectiveProvider]
+FriendlyName="Advanced jumping"
+Description="Learn advanced use of the down action button and how to identify springboards"
+SubObjectives[0]=(FriendlyName="Coil")
+SubObjectives[1]=(FriendlyName="Skill roll")
+SubObjectives[2]=(FriendlyName="Springboard and get to Celeste")
+
+[TUT_OBJ_8A UIDataProvider_TdChallengeObjectiveProvider]
+FriendlyName="Basic combat"
+Description="Melee combat basics"
+SubObjectives[0]=(FriendlyName="Punch")
+SubObjectives[1]=(FriendlyName="Low punch")
+SubObjectives[2]=(FriendlyName="Jump kick")
+SubObjectives[3]=(FriendlyName="Slide kick")
+
+[TUT_OBJ_9A UIDataProvider_TdChallengeObjectiveProvider]
+FriendlyName="Advanced combat"
+Description="How to get weapons"
+SubObjectives[0]=(FriendlyName="Rear disarm and discard weapon")
+SubObjectives[1]=(FriendlyName="Frontal disarm")
+SubObjectives[2]=(FriendlyName="Frontal disarm with reaction time")
+
+
+; ---------- UNLOCKABLE CONTENT ----------
+
+; Artwork unlocks
+[ArtworkUnlock_1 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Faith sketches"
+Description="The genesis of Faith.  She started off as just a member of a gang before becoming the heroine."
+
+[ArtworkUnlock_2 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Faith sketch"
+Description="First picture of Faith.  This is when we knew we had found our lead character."
+
+[ArtworkUnlock_3 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Faith concept"
+Description="The final concept of Faith."
+
+[ArtworkUnlock_4 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Magazine cover 1"
+Description="The first cover, a more polished version of the original concept."
+
+[ArtworkUnlock_5 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Magazine cover 1 - details"
+Description="At this point in the project Faith still carried her own gun."
+
+[ArtworkUnlock_6 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Magazine cover 2"
+Description="The next magazine cover, notice the absence of a weapon."
+
+[ArtworkUnlock_7 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Magazine cover 2 - detail"
+Description="Faith has become slightly more Eurasian in look."
+
+[ArtworkUnlock_8 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Magazine cover 3"
+Description="Our first cover show Faith in action."
+
+[ArtworkUnlock_9 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Magazine cover 3 - detail"
+Description="The focus is on the melee combat in the game."
+
+[ArtworkUnlock_10 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Magazine cover 4"
+Description="A more contemplative piece with Faith alone in a crowd."
+
+[ArtworkUnlock_11 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Magazine cover 4 - detail"
+Description="This later became the key art for the packaging."
+
+[ArtworkUnlock_12 UIDataProvider_ArtworkUnlocks]
+FriendlyName="The City 1"
+Description="The first environment concepts showing the use of strong colour."
+
+[ArtworkUnlock_13 UIDataProvider_ArtworkUnlocks]
+FriendlyName="The City 2"
+Description="The subway station that was used in the Ropeburn Chapter."
+
+[ArtworkUnlock_14 UIDataProvider_ArtworkUnlocks]
+FriendlyName="The City 3"
+Description="A prison cell block that was cut from the game."
+
+[ArtworkUnlock_15 UIDataProvider_ArtworkUnlocks]
+FriendlyName="The City 4"
+Description="The first concept of The Shard and the city skyline."
+
+[ArtworkUnlock_16 UIDataProvider_ArtworkUnlocks]
+FriendlyName="The City 5"
+Description="An early image showcasing the first person point of view."
+
+[ArtworkUnlock_17 UIDataProvider_ArtworkUnlocks]
+FriendlyName="The City 5 - detail"
+Description="The beginnings of "runner vision" can clearly be seen."
+
+[ArtworkUnlock_18 UIDataProvider_ArtworkUnlocks]
+FriendlyName="The City 6"
+Description="An early image of Faith surveying the city."
+
+[ArtworkUnlock_19 UIDataProvider_ArtworkUnlocks]
+FriendlyName="The City 6 - detail"
+Description="Detail showing the "runner vision"."
+
+[ArtworkUnlock_20 UIDataProvider_ArtworkUnlocks]
+FriendlyName="The City 7"
+Description="Very early colour tests used as reference for lighting."
+
+[ArtworkUnlock_21 UIDataProvider_ArtworkUnlocks]
+FriendlyName="The City 8"
+Description="These were also an early test of a style for the 2D cutscenes."
+
+[ArtworkUnlock_22 UIDataProvider_ArtworkUnlocks]
+FriendlyName="The City 9"
+Description="The city vista."
+
+[ArtworkUnlock_23 UIDataProvider_ArtworkUnlocks]
+FriendlyName="The City 10"
+Description="Early concept sketch for first person view."
+
+[ArtworkUnlock_24 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Characters - Celeste sketches"
+Description="Some early versions of Celeste."
+
+[ArtworkUnlock_25 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Characters - Celeste concept"
+Description="The final concept of Celeste."
+
+[ArtworkUnlock_26 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Characters - CPF concepts 1"
+Description="CPF patrol cop concept."
+
+[ArtworkUnlock_27 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Characters - CPF concepts 2"
+Description="CPF Riot cop and patrol cop concept."
+
+[ArtworkUnlock_28 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Characters - Jacknife sketches"
+Description="The genesis of Jacknife.  Initially he was in the same gang as Faith."
+
+[ArtworkUnlock_29 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Characters - Jacknife concept"
+Description="A concept of Jacknife when he still had long hair."
+
+[ArtworkUnlock_30 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Characters - Merc concept"
+Description="Early concepts of Mercury."
+
+[ArtworkUnlock_31 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Characters - Miller sketches"
+Description="Some early versions of Miller."
+
+[ArtworkUnlock_32 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Characters - Miller concept"
+Description="The final concept of Miller."
+
+[ArtworkUnlock_33 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Characters - Ropeburn sketches"
+Description="Showing the size of RB and his golden teeth."
+
+[ArtworkUnlock_34 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Characters - Ropeburn concept"
+Description="The final concept of Ropeburn."
+
+[ArtworkUnlock_35 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Characters - SWAT sketches"
+Description="Early concepts for the SWAT.  Including an abandoned gas mask version."
+
+[ArtworkUnlock_36 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Characters - SWAT concept"
+Description="The final SWAT concept."
+
+[ArtworkUnlock_37 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Characters - Pursuit sketches"
+Description="Early concepts for the pursuit cops."
+
+[ArtworkUnlock_38 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Characters - Pursuit concept"
+Description="Final concept for the pursuit cop."
+
+[ArtworkUnlock_39 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Characters - Runners"
+Description="Sketches of other runners."
+
+[ArtworkUnlock_40 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Misc - Merc's lair 1"
+Description="Merc lives in a gutted AC cooling tower."
+
+[ArtworkUnlock_41 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Misc - Merc's lair 2"
+Description="The inside of Merc's lair."
+
+[ArtworkUnlock_42 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Misc - The bag"
+Description="The bag played a much larger role in early versions of the story."
+
+[ArtworkUnlock_43 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Misc - Cut interrogation scene"
+Description="Showing the use of first person perspective in cut scenes."
+
+[ArtworkUnlock_44 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Misc - The Shard servers"
+Description="The servers that control all surveillance in the city."
+
+[ArtworkUnlock_45 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Misc - The PK training facility"
+Description="A concept for the PK training facility."
+
+[ArtworkUnlock_46 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Misc - Painting 1"
+Description="A painting from RB's office."
+
+[ArtworkUnlock_47 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Misc - Painting 2"
+Description="A painting from RB's office."
+
+[ArtworkUnlock_48 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Misc - Painting 3"
+Description="A painting from RB's office."
+
+[ArtworkUnlock_49 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Cover sketches 1"
+Description="Cover art sketches.  Most were not used."
+
+[ArtworkUnlock_50 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Cover sketches 2"
+Description="Cover art sketches.  Most were not used"
+
+[ArtworkUnlock_51 UIDataProvider_ArtworkUnlocks]
+FriendlyName="Cover sketches 3"
+Description="Cover art sketch for the "crowd" cover."
+
+; Video unlocks
+[VideoUnlock_1 UIDataProvider_VideosUnlocks]
+FriendlyName="Attract Movie"
+Description=""
+
+[VideoUnlock_2 UIDataProvider_VideosUnlocks]
+FriendlyName="CS 1 - Intro"
+Description=""
+
+[VideoUnlock_3 UIDataProvider_VideosUnlocks]
+FriendlyName="CS 2 - The Listener"
+Description=""
+
+[VideoUnlock_4 UIDataProvider_VideosUnlocks]
+FriendlyName="CS 3 - Back at Merc's"
+Description=""
+
+[VideoUnlock_5 UIDataProvider_VideosUnlocks]
+FriendlyName="CS 4 - Miller"
+Description=""
+
+[VideoUnlock_6 UIDataProvider_VideosUnlocks]
+FriendlyName="CS 5 - Standoff"
+Description=""
+
+[VideoUnlock_7 UIDataProvider_VideosUnlocks]
+FriendlyName="CS 6 - Celeste"
+Description=""
+
+[VideoUnlock_8 UIDataProvider_VideosUnlocks]
+FriendlyName="CS 7 - Jacknife"
+Description=""
+
+[VideoUnlock_9 UIDataProvider_VideosUnlocks]
+FriendlyName="CS 8 - Race to Harbour"
+Description=""
+
+[VideoUnlock_10 UIDataProvider_VideosUnlocks]
+FriendlyName="CS 9 - The Assassin"
+Description=""
+
+[VideoUnlock_11 UIDataProvider_VideosUnlocks]
+FriendlyName="CS 10 - Kate's rescue"
+Description=""
+
+; Music unlocks
+[MusicUnlock_1 UIDataProvider_MusicUnlocks]
+FriendlyName="Full Menu Song - Theme Remixed"
+Description=""
+
+[MusicUnlock_2 UIDataProvider_MusicUnlocks]
+FriendlyName="E3 Trailer Music"
+Description=""
+
+[MusicUnlock_3 UIDataProvider_MusicUnlocks]
+FriendlyName="The Edge - Ambience"
+Description=""
+
+[MusicUnlock_4 UIDataProvider_MusicUnlocks]
+FriendlyName="Flight - Ambience"
+Description=""
+
+[MusicUnlock_5 UIDataProvider_MusicUnlocks]
+FriendlyName="Jacknife - Ambience"
+Description=" "
+
+[MusicUnlock_6 UIDataProvider_MusicUnlocks]
+FriendlyName="Jacknife - Puzzle"
+Description=""
+
+[MusicUnlock_7 UIDataProvider_MusicUnlocks]
+FriendlyName="Heat - Ambience"
+Description=""
+
+[MusicUnlock_8 UIDataProvider_MusicUnlocks]
+FriendlyName="Heat - Puzzle"
+Description=""
+
+[MusicUnlock_9 UIDataProvider_MusicUnlocks]
+FriendlyName="Ropeburn - Ambience"
+Description=""
+
+[MusicUnlock_10 UIDataProvider_MusicUnlocks]
+FriendlyName="Ropeburn - Cutscene Ambience"
+Description=""
+
+[MusicUnlock_11 UIDataProvider_MusicUnlocks]
+FriendlyName="New Eden - Ambience"
+Description=""
+
+[MusicUnlock_12 UIDataProvider_MusicUnlocks]
+FriendlyName="New Eden - Combat"
+Description=""
+
+[MusicUnlock_13 UIDataProvider_MusicUnlocks]
+FriendlyName="Pirandello Kruger - Ambience"
+Description=""
+
+[MusicUnlock_14 UIDataProvider_MusicUnlocks]
+FriendlyName="Pirandello Kruger - Puzzle"
+Description=""
+
+[MusicUnlock_15 UIDataProvider_MusicUnlocks]
+FriendlyName="The Boat - Combat"
+Description=""
+
+[MusicUnlock_16 UIDataProvider_MusicUnlocks]
+FriendlyName="The Boat - Chase"
+Description=""
+
+[MusicUnlock_17 UIDataProvider_MusicUnlocks]
+FriendlyName="Kate - Ambience"
+Description=""
+
+[MusicUnlock_18 UIDataProvider_MusicUnlocks]
+FriendlyName="Kate - Puzzle"
+Description=""
+
+[MusicUnlock_19 UIDataProvider_MusicUnlocks]
+FriendlyName="The Shard - Ambience"
+Description=""
+
+[MusicUnlock_20 UIDataProvider_MusicUnlocks]
+FriendlyName="The Shard - Puzzle"
+Description= ""
+
+[Xenon]
+SaveGameTitle="Mirror's Edge Game Progress"
+
